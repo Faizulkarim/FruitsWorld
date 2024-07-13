@@ -8,23 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		1D2F31192C429A92006E89DC /* FruitsWorldApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2F31182C429A92006E89DC /* FruitsWorldApp.swift */; };
-		1D2F311B2C429A92006E89DC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2F311A2C429A92006E89DC /* ContentView.swift */; };
 		1D2F311D2C429A94006E89DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D2F311C2C429A94006E89DC /* Assets.xcassets */; };
 		1D2F31202C429A94006E89DC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D2F311F2C429A94006E89DC /* Preview Assets.xcassets */; };
 		1D2F31272C42F796006E89DC /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2F31262C42F796006E89DC /* OnboardingView.swift */; };
-		1D2F312C2C42F841006E89DC /* FruitesWorldModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2F312B2C42F841006E89DC /* FruitesWorldModel.swift */; };
-		1D2F312E2C42F8EE006E89DC /* FruitesWorldData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2F312D2C42F8EE006E89DC /* FruitesWorldData.swift */; };
+		1D2F312C2C42F841006E89DC /* FruitsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2F312B2C42F841006E89DC /* FruitsModel.swift */; };
+		1D2F312E2C42F8EE006E89DC /* FruitsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2F312D2C42F8EE006E89DC /* FruitsData.swift */; };
+		1D2F31312C42FAB8006E89DC /* FruitsCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2F31302C42FAB8006E89DC /* FruitsCardView.swift */; };
+		1D2F31332C42FE57006E89DC /* StartButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2F31322C42FE57006E89DC /* StartButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1D2F31152C429A92006E89DC /* FruitsWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FruitsWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D2F31182C429A92006E89DC /* FruitsWorldApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitsWorldApp.swift; sourceTree = "<group>"; };
-		1D2F311A2C429A92006E89DC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1D2F311C2C429A94006E89DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1D2F311F2C429A94006E89DC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1D2F31262C42F796006E89DC /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
-		1D2F312B2C42F841006E89DC /* FruitesWorldModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitesWorldModel.swift; sourceTree = "<group>"; };
-		1D2F312D2C42F8EE006E89DC /* FruitesWorldData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitesWorldData.swift; sourceTree = "<group>"; };
+		1D2F312B2C42F841006E89DC /* FruitsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitsModel.swift; sourceTree = "<group>"; };
+		1D2F312D2C42F8EE006E89DC /* FruitsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitsData.swift; sourceTree = "<group>"; };
+		1D2F31302C42FAB8006E89DC /* FruitsCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitsCardView.swift; sourceTree = "<group>"; };
+		1D2F31322C42FE57006E89DC /* StartButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,11 +59,11 @@
 		1D2F31172C429A92006E89DC /* FruitsWorld */ = {
 			isa = PBXGroup;
 			children = (
+				1D2F312F2C42FAA0006E89DC /* Components */,
 				1D2F312A2C42F820006E89DC /* Data */,
 				1D2F31292C42F819006E89DC /* Model */,
 				1D2F31282C42F7FE006E89DC /* Screen */,
 				1D2F31182C429A92006E89DC /* FruitsWorldApp.swift */,
-				1D2F311A2C429A92006E89DC /* ContentView.swift */,
 				1D2F311C2C429A94006E89DC /* Assets.xcassets */,
 				1D2F311E2C429A94006E89DC /* Preview Content */,
 			);
@@ -87,7 +89,7 @@
 		1D2F31292C42F819006E89DC /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				1D2F312B2C42F841006E89DC /* FruitesWorldModel.swift */,
+				1D2F312B2C42F841006E89DC /* FruitsModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -95,9 +97,18 @@
 		1D2F312A2C42F820006E89DC /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				1D2F312D2C42F8EE006E89DC /* FruitesWorldData.swift */,
+				1D2F312D2C42F8EE006E89DC /* FruitsData.swift */,
 			);
 			path = Data;
+			sourceTree = "<group>";
+		};
+		1D2F312F2C42FAA0006E89DC /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				1D2F31302C42FAB8006E89DC /* FruitsCardView.swift */,
+				1D2F31322C42FE57006E89DC /* StartButtonView.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -170,10 +181,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D2F312E2C42F8EE006E89DC /* FruitesWorldData.swift in Sources */,
+				1D2F31332C42FE57006E89DC /* StartButtonView.swift in Sources */,
+				1D2F312E2C42F8EE006E89DC /* FruitsData.swift in Sources */,
 				1D2F31272C42F796006E89DC /* OnboardingView.swift in Sources */,
-				1D2F312C2C42F841006E89DC /* FruitesWorldModel.swift in Sources */,
-				1D2F311B2C429A92006E89DC /* ContentView.swift in Sources */,
+				1D2F312C2C42F841006E89DC /* FruitsModel.swift in Sources */,
+				1D2F31312C42FAB8006E89DC /* FruitsCardView.swift in Sources */,
 				1D2F31192C429A92006E89DC /* FruitsWorldApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

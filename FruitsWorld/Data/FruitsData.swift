@@ -8,8 +8,8 @@
 
 import SwiftUI
 
-let fruitsData: [Fruit] = [
-    Fruit(
+let fruitsData: [FruitModel] = [
+    FruitModel(
         title: "Blueberry",
         headline: "Blueberries are sweet, nutritious and wildly popular fruit all over the world.",
         image: "blueberry",
@@ -39,7 +39,7 @@ let fruitsData: [Fruit] = [
         """,
         nutrition: ["240 kJ (57 kcal)","9.96 g","0.33 g","0.74 g","A, B1, B2, B3, B5, B6, B9, C, E, K","Calcium, Iron, Magnasium, Manganese, Phosphorus, Sodium, Zinc"]
     ),
-    Fruit(
+    FruitModel(
         title: "Strawberry",
         headline: "Widely appreciated for its characteristic aroma,  red color, juicy texture, and sweetness.",
         image: "strawberry",
@@ -65,7 +65,7 @@ let fruitsData: [Fruit] = [
         """,
         nutrition: ["136 kJ (33 kcal)","4.89 g","0.3 g","0.67 g","B1, B2, B3, B5, B6, B9, Choline, C, E, K","Calcium, Iron, Magnasium, Manganese, Phosphorus, Potassium, Sodium, Zinc"]
     ),
-    Fruit(
+    FruitModel(
         title: "Lemon",
         headline: "There's no doubt lemons are delicious, but does adding them to water make you healthier?",
         image: "lemon",
@@ -107,7 +107,7 @@ let fruitsData: [Fruit] = [
         """,
         nutrition: ["121 kJ (29 kcal)","2.5 g","0.3 g","1.1 g","B1, B2, B3, B5, B6, B9, C, Choline","Calcium, Iron, Magnasium, Manganese, Phosphorus, Potassium, Zinc"]
     ),
-    Fruit(
+    FruitModel(
         title: "Plum",
         headline: "Plums are a very nutritious fruit. An excellent source of vitamins, minerals, fiber and antioxidants.",
         image: "plum",
@@ -139,7 +139,7 @@ let fruitsData: [Fruit] = [
         """,
         nutrition: ["192 kJ (46 kcal)","9.92 g","0.28 g","0.7 g","A, B1, B2, B3, B5, B6, B9, C, E, K","Calcium, Iron, Magnasium, Manganese, Phosphorus, Potassium, Sodium, Zinc"]
     ),
-    Fruit(
+    FruitModel(
         title: "Lime",
         headline: "Sour, round, and bright green citrus fruits. Limes are high in vitamin C, antioxidants, and other nutrients.",
         image: "lime",
@@ -169,7 +169,7 @@ let fruitsData: [Fruit] = [
       """,
         nutrition: ["126 kJ (30 kcal)","1.7 g","0.2 g","0.7 g","B1, B2, B3, B5, B6, B9, C","Calcium, Iron, Magnasium, Phosphorus, Potassium, Sodium"]
     ),
-    Fruit(
+    FruitModel(
         title: "Pomegranate",
         headline: "Sweet, bell-shaped fruits that have been enjoyed since ancient times. They can be eaten crisp or soft.",
         image: "pomegranate",
@@ -195,7 +195,7 @@ let fruitsData: [Fruit] = [
         """,
         nutrition: ["346 kJ (83 kcal)","13.67 g","1.17 g","1.67 g","B1, B2, B3, B5, B6, B9, C, E, K","Calcium, Iron, Magnasium, Manganese, Phosphorus, Potassium, Sodium, Zinc"]
     ),
-    Fruit(
+    FruitModel(
         title: "Pear",
         headline: "Sweet, bell-shaped fruits that have been enjoyed since ancient times. They can be eaten crisp or soft.",
         image: "pear",
@@ -231,7 +231,7 @@ let fruitsData: [Fruit] = [
         """,
         nutrition: ["239 kJ (57 kcal)","9.75 g","0.14 g","0.36 g","B1, B2, B3, B5, B6, B9, C, E, K","Calcium, Iron, Magnasium, Manganese, Phosphorus, Potassium, Sodium, Zinc"]
     ),
-    Fruit(
+    FruitModel(
         title: "Gooseberry",
         headline: "Sweet, bell-shaped fruits that have been enjoyed since ancient times. They can be eaten crisp or soft.",
         image: "gooseberry",
@@ -255,7 +255,7 @@ let fruitsData: [Fruit] = [
         """,
         nutrition: ["184 kJ (44 kcal)","6.15","0.58 g","0.88 g","A, B1, B2, B3, B5, B6, B9, C, E","Calcium, Iron, Magnasium, Manganese, Phosphorus, Potassium, Sodium, Zinc"]
     ),
-    Fruit(
+    FruitModel(
         title: "Mango",
         headline: "Sweet, bell-shaped fruits that have been enjoyed since ancient times. They can be eaten crisp or soft.",
         image: "mango",
@@ -287,7 +287,7 @@ let fruitsData: [Fruit] = [
         """,
         nutrition: ["250 kJ (60 kcal)","13.7 g","0.38 g","0.82 g","A, B1, B2, B3, B5, B6, B9, C, E, K","Calcium, Iron, Magnasium, Manganese, Phosphorus, Potassium, Sodium, Zinc"]
     ),
-    Fruit(
+    FruitModel(
         title: "Watermelon",
         headline: "Sweet, bell-shaped fruits that have been enjoyed since ancient times. They can be eaten crisp or soft.",
         image: "watermelon",
@@ -321,7 +321,7 @@ let fruitsData: [Fruit] = [
         """,
         nutrition: ["127 kJ (30 kcal)","6.2 g","0.15 g","0.61 g","A, B1, B2, B3, B5, B6, C","Calcium, Iron, Magnasium, Manganese, Phosphorus, Potassium, Sodium, Zinc"]
     ),
-    Fruit(
+    FruitModel(
         title: "Cherry",
         headline: "Sweet, bell-shaped fruits that have been enjoyed since ancient times. They can be eaten crisp or soft.",
         image: "cherry",
@@ -343,7 +343,7 @@ let fruitsData: [Fruit] = [
         """,
         nutrition: ["209 kJ (50 kcal)","8.5 g","0.3 g","1 g","A, B1, B2, B3, B5, B6, B9, C, K","Calcium, Iron, Magnasium, Manganese, Phosphorus, Potassium, Sodium, Zinc"]
     ),
-    Fruit(
+    FruitModel(
         title: "Grapefruit",
         headline: "Sweet, bell-shaped fruits that have been enjoyed since ancient times. They can be eaten crisp or soft.",
         image: "grapefruit",
@@ -369,7 +369,7 @@ let fruitsData: [Fruit] = [
         """,
         nutrition: ["138 kJ (33 kcal)","7.31 g","0.10 g","0.8 g","B1, B2, B3, B5, B6, B9, C, E","Calcium, Iron, Magnasium, Manganese, Phosphorus, Potassium, Zinc"]
     ),
-    Fruit(
+    FruitModel(
         title: "Apple",
         headline: "Apples are one of the most popular, and exceptionally healthy fruit for good reason.",
         image: "apple",

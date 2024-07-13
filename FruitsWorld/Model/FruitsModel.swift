@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-struct Fruit: Identifiable {
+struct FruitModel: Identifiable {
   var id = UUID()
   var title: String
   var headline: String
