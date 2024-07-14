@@ -20,6 +20,7 @@ struct FruitNutrientsView: View {
                     HStack {
                         Group {
                             Image(systemName: "info.circle")
+                            
                             Text(nutrients[item])
                         }
                         .foregroundStyle(fruit.gradientColors[1])

@@ -10,7 +10,9 @@ import SwiftUI
 struct FruitRowView: View {
     var fruit : FruitModel
     var body: some View {
+        
         HStack {
+            
             Image(fruit.image)
                 .renderingMode(.original)
                 .resizable()
@@ -26,12 +28,12 @@ struct FruitRowView: View {
                 Text(fruit.title)
                     .font(.title2)
                     .fontWeight(.bold)
+                
                 Text(fruit.headline)
                     .font(.caption)
                     .foregroundStyle(.secondary)
             }
         }
-       
     }
 }
 

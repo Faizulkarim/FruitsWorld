@@ -19,6 +19,7 @@ struct SettingsView: View {
                         Divider().padding(.vertical, 4)
                         
                         HStack(alignment: .center, spacing: 10, content: {
+                            
                            Image("logo")
                                 .resizable()
                                 .scaledToFit()
@@ -39,6 +40,7 @@ struct SettingsView: View {
                             .layoutPriority(1)
                             .font(.footnote)
                             .multilineTextAlignment(.leading)
+                        
                         Toggle(isOn: $isOnboarding, label: {
                             if isOnboarding {
                                 Text("Restarted".uppercased())

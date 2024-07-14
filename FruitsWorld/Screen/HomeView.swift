@@ -13,6 +13,7 @@ struct HomeView: View {
     let fruits = fruitsData
     
     var body: some View {
+        
         NavigationStack {
             List(fruits) { fruit in
                 NavigationLink {
