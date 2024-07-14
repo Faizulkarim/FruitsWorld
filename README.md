@@ -9,20 +9,6 @@ FruitsWorld is a demo application built using SwiftUI to showcase various SwiftU
 - **Fruit Details with Calorie Info**: Shows detailed information about each fruit, including calorie content.
 - **Settings**: Allows users to adjust app settings.
 
-## Learning Points
-
-- **Onboarding Screen**: Learn how to create an engaging onboarding experience for new users.
-- **Page View Using Tab View**: Understand how to implement a tab view for easy navigation between different pages.
-- **List View**: Explore how to display a list of items using SwiftUI's List view.
-- **Scroll View**: Discover how to enable seamless scrolling through content.
-- **Animation**: Add dynamic and engaging animations to enhance the user experience.
-- **GroupBox**: Group related content together in a visually distinct way.
-- **DisclosureGroup**: Create expandable sections to show and hide detailed information.
-- **Divider**: Use dividers to separate different sections of the UI for better organization.
-- **@Environment Property Wrapper**: Utilize environment values such as light/dark mode and timezone for adaptive UI.
-- **Toolbar**: Add toolbar items for easy access to app functionalities.
-- **Link View**: Include links for external navigation.
-
 ## Screenshots
  ### Light Mode
 <img src="https://github.com/user-attachments/assets/2d9e89d5-8c89-4456-ac0a-b6fa29e10e90" width="200" />
@@ -39,6 +25,20 @@ FruitsWorld is a demo application built using SwiftUI to showcase various SwiftU
 ## Video 
 
 https://github.com/user-attachments/assets/25826f9b-02fe-48c6-a8c7-c7e0d6f41b73
+
+## Learning Points
+
+- **Onboarding Screen**: Learn how to create an engaging onboarding experience for new users.
+- **Page View Using Tab View**: Understand how to implement a tab view for easy navigation between different pages.
+- **List View**: Explore how to display a list of items using SwiftUI's List view.
+- **Scroll View**: Discover how to enable seamless scrolling through content.
+- **Animation**: Add dynamic and engaging animations to enhance the user experience.
+- **GroupBox**: Group related content together in a visually distinct way.
+- **DisclosureGroup**: Create expandable sections to show and hide detailed information.
+- **Divider**: Use dividers to separate different sections of the UI for better organization.
+- **@Environment Property Wrapper**: Utilize environment values such as light/dark mode and timezone for adaptive UI.
+- **Toolbar**: Add toolbar items for easy access to app functionalities.
+- **Link View**: Include links for external navigation.
 
 
 ## Installation
