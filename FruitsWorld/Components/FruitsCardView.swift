@@ -41,7 +41,9 @@ struct FruitsCardView: View {
             }
         }
         .onAppear(perform: {
-            isAnimating = true
+            withAnimation(.easeOut(duration: 0.5)) {
+                isAnimating = true
+            }
         })
         .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity, alignment: .center)
         .background(
