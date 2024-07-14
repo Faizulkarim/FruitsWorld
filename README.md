@@ -11,16 +11,16 @@ FruitsWorld is a demo application built using SwiftUI to showcase various SwiftU
 
 ## Screenshots
  ### Light Mode
+<img src="https://github.com/user-attachments/assets/86b0c64c-91e6-47d6-9e30-fd44f335ee84" width="200" />
 <img src="https://github.com/user-attachments/assets/2d9e89d5-8c89-4456-ac0a-b6fa29e10e90" width="200" />
 <img src="https://github.com/user-attachments/assets/6b921737-4a8c-487b-a9a0-d21700560103" width="200" />
-<img src="https://github.com/user-attachments/assets/86b0c64c-91e6-47d6-9e30-fd44f335ee84" width="200" />
 <img src="https://github.com/user-attachments/assets/f203b611-bb8b-4a16-8b1e-e0bb70529596" width="200" />
 
  ### Dark Mode
 <img src="https://github.com/user-attachments/assets/3a2c52ca-6f49-407b-96a2-0117085cc085" width="200" />
+<img src="https://github.com/user-attachments/assets/84af1cc3-c9b3-4712-8c58-a8b779156c9e" width="200" />
 <img src="https://github.com/user-attachments/assets/b811f3a8-ebd7-46e3-831e-b28cf6269cfb" width="200" />
 <img src="https://github.com/user-attachments/assets/2ed41ce9-53c0-4fb0-a659-723b9616ced5" width="200" />
-<img src="https://github.com/user-attachments/assets/84af1cc3-c9b3-4712-8c58-a8b779156c9e" width="200" />
 
 ## Video 
 
