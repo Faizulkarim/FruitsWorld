@@ -45,7 +45,7 @@ https://github.com/user-attachments/assets/25826f9b-02fe-48c6-a8c7-c7e0d6f41b73
 
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/yourusername/FruitsWorld.git](https://github.com/Faizulkarim/FruitesWorld.git)
+   git clone https://github.com/Faizulkarim/FruitsWorld.git
 
 2. Open the project in Xcode.
 3. Build and run the app on your simulator or device.
