@@ -12,7 +12,11 @@ struct HomeView: View {
     var body: some View {
         NavigationStack {
             List(fruits) { fruit in
-                FruitRowView(fruit: fruit)
+                NavigationLink {
+                    
+                } label: {
+                    FruitRowView(fruit: fruit)
+                }
             }
             .navigationTitle("Fruits")
             .toolbar() {
