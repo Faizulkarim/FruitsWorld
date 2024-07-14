@@ -69,10 +69,10 @@
 		1D2F31172C429A92006E89DC /* FruitsWorld */ = {
 			isa = PBXGroup;
 			children = (
+				1D2F31282C42F7FE006E89DC /* Screen */,
 				1D2F312F2C42FAA0006E89DC /* Components */,
 				1D2F312A2C42F820006E89DC /* Data */,
 				1D2F31292C42F819006E89DC /* Model */,
-				1D2F31282C42F7FE006E89DC /* Screen */,
 				1D2F31182C429A92006E89DC /* FruitsWorldApp.swift */,
 				1D2F311C2C429A94006E89DC /* Assets.xcassets */,
 				1D2F311E2C429A94006E89DC /* Preview Content */,
