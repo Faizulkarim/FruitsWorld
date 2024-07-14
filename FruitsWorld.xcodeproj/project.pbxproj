@@ -20,6 +20,7 @@
 		1D2F31392C439AB9006E89DC /* FruitsDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2F31382C439AB9006E89DC /* FruitsDetailsView.swift */; };
 		1D2F313B2C439BEA006E89DC /* FruitHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2F313A2C439BEA006E89DC /* FruitHeaderView.swift */; };
 		1D2F313D2C43A2BF006E89DC /* FruitNutrientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2F313C2C43A2BF006E89DC /* FruitNutrientsView.swift */; };
+		1D2F313F2C43BE38006E89DC /* SourceLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2F313E2C43BE38006E89DC /* SourceLinkView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		1D2F31382C439AB9006E89DC /* FruitsDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitsDetailsView.swift; sourceTree = "<group>"; };
 		1D2F313A2C439BEA006E89DC /* FruitHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitHeaderView.swift; sourceTree = "<group>"; };
 		1D2F313C2C43A2BF006E89DC /* FruitNutrientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitNutrientsView.swift; sourceTree = "<group>"; };
+		1D2F313E2C43BE38006E89DC /* SourceLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceLinkView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +124,7 @@
 				1D2F31362C43944E006E89DC /* FruitRowView.swift */,
 				1D2F313A2C439BEA006E89DC /* FruitHeaderView.swift */,
 				1D2F313C2C43A2BF006E89DC /* FruitNutrientsView.swift */,
+				1D2F313E2C43BE38006E89DC /* SourceLinkView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -205,6 +208,7 @@
 				1D2F312C2C42F841006E89DC /* FruitsModel.swift in Sources */,
 				1D2F313B2C439BEA006E89DC /* FruitHeaderView.swift in Sources */,
 				1D2F31312C42FAB8006E89DC /* FruitsCardView.swift in Sources */,
+				1D2F313F2C43BE38006E89DC /* SourceLinkView.swift in Sources */,
 				1D2F31372C43944E006E89DC /* FruitRowView.swift in Sources */,
 				1D2F31192C429A92006E89DC /* FruitsWorldApp.swift in Sources */,
 			);

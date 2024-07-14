@@ -29,10 +29,20 @@ struct FruitsDetailsView: View {
                             
                             FruitNutrientsView(fruit: fruit)
                             
+                            Text("Learn more \(fruit.title)".uppercased())
+                                .fontWeight(.bold)
+                                .foregroundStyle(fruit.gradientColors[1])
+                            
+                            Text(fruit.description)
+                                .multilineTextAlignment(.leading)
+                            
+                            SourceLinkView()
                         }
                         .padding(.horizontal, 20)
                         .frame(maxWidth: 640, alignment: .center)
                      }
+                    .navigationTitle(fruit.title)
+                    .navigationBarTitleDisplayMode(.inline)
                   }
                 .ignoresSafeArea(edges: .top)
                 .scrollIndicators(.hidden)

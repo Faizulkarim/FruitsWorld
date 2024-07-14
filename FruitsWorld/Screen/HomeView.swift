@@ -13,7 +13,7 @@ struct HomeView: View {
         NavigationStack {
             List(fruits) { fruit in
                 NavigationLink {
-                    
+                    FruitsDetailsView(fruit: fruit)
                 } label: {
                     FruitRowView(fruit: fruit)
                 }
