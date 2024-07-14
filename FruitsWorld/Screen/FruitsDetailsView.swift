@@ -13,8 +13,27 @@ struct FruitsDetailsView: View {
         ZStack {
             NavigationStack {
                 ScrollView(.vertical) {
-                   FruitHeaderView(fruit: fruit)
-                }
+                    
+                    VStack(alignment: .center, spacing: 20) {
+                        FruitHeaderView(fruit: fruit)
+                        
+                        VStack(alignment: .leading, spacing: 20){
+                            Text(fruit.title)
+                                .font(.largeTitle)
+                                .fontWeight(.heavy)
+                                .foregroundStyle(fruit.gradientColors[1])
+                                
+                            Text(fruit.headline)
+                                .font(.headline)
+                                .multilineTextAlignment(.leading)
+                            
+                            FruitNutrientsView(fruit: fruit)
+                            
+                        }
+                        .padding(.horizontal, 20)
+                        .frame(maxWidth: 640, alignment: .center)
+                     }
+                  }
                 .ignoresSafeArea(edges: .top)
                 .scrollIndicators(.hidden)
             }
@@ -23,5 +42,5 @@ struct FruitsDetailsView: View {
 }
 
 #Preview {
-    FruitsDetailsView(fruit: fruitsData[2])
+    FruitsDetailsView(fruit: fruitsData[0])
 }
